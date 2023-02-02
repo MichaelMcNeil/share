@@ -7,3 +7,6 @@ MACs
 ```
 sudo curl "https://alariotech.servicedesk.atera.com/GetAgent/mac/0033z00002zDykmAAC/92" | sudo bash
 ```
+
+
+sudo bash /Applications/AEM\ Agent.app/Contents/Resources/uninstall.sh
