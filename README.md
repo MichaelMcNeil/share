@@ -32,3 +32,8 @@ curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?custom
 ```
 curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?customerId=51&integratorLogin=support%40alariotech.com&customerName=Loomis%20Property%20Service" && msiexec /i setup.msi /qn  IntegratorLogin=support@alariotech.com CompanyId=51
 ```
+
+## Volansky
+```
+curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?customerId=37&integratorLogin=support%40alariotech.com&customerName=Volansky%20Studio" && msiexec /i setup.msi /qn  IntegratorLogin=support@alariotech.com CompanyId=37
+```
