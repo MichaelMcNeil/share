@@ -48,3 +48,8 @@ curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?custom
 ```
 curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?customerId=71&integratorLogin=support%40alariotech.com&customerName=LRSWMD&accountId=001D0000025wLWQIA2" && msiexec /i setup.msi /qn  IntegratorLogin=support@alariotech.com CompanyId=71 AccountId=001D0000025wLWQIA2
 ```
+
+## CCS
+```
+curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?customerId=52&integratorLogin=support%40alariotech.com&customerName=CCS%20Crane%20Service&accountId=001D0000025wLWQIA2" && msiexec /i setup.msi /qn  IntegratorLogin=support@alariotech.com CompanyId=52 AccountId=001D0000025wLWQIA2
+```
