@@ -53,3 +53,7 @@ curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?custom
 ```
 curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?customerId=52&integratorLogin=support%40alariotech.com&customerName=CCS%20Crane%20Service&accountId=001D0000025wLWQIA2" && msiexec /i setup.msi /qn  IntegratorLogin=support@alariotech.com CompanyId=52 AccountId=001D0000025wLWQIA2
 ```
+
+
+## Sage Download
+https://support1.na.sage.com/selfservice/viewdocument.do?noCount=true&externalId=66137&sliceId=1&cmd=&ViewedDocsListHelper=com.kanisa.apps.common.BaseViewedDocsListHelperImpl
