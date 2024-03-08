@@ -57,3 +57,8 @@ curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?custom
 
 ## Sage Download
 https://support1.na.sage.com/selfservice/viewdocument.do?noCount=true&externalId=66137&sliceId=1&cmd=&ViewedDocsListHelper=com.kanisa.apps.common.BaseViewedDocsListHelperImpl
+
+## STowe Dental
+```
+curl -o setup.msi "https://alariotech.servicedesk.atera.com/GetAgent/Msi/?customerId=33&integratorLogin=support%40alariotech.com&customerName=Stowe%20Dental%20Assoc.%20(Mckechnie)&accountId=001D0000025wLWQIA2" && msiexec /i setup.msi /qn  IntegratorLogin=support@alariotech.com CompanyId=33 AccountId=001D0000025wLWQIA2
+```
